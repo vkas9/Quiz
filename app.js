@@ -83,8 +83,10 @@ const clearQuiz=()=>{
     const con=document.querySelector(".container");
     const h1=document.createElement("h1");
     h1.textContent=right;
+    
     con.innerHTML="<h1>Thanks for Playing Quiz</h1>";
     con.appendChild(h1);
+    h1.style.color="white";
 }
 // submitQuiz();
 loadQuestion();
