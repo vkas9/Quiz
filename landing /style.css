@@ -110,8 +110,15 @@ body{
     height:9vw;
     /* background-color: red; */
     overflow:hidden;
+    position:relative;
+}
+.hleft .elm h1:nth-child(1){
+    top:0;
 }
 .hleft .elm h1{
+    position:absolute;
+    top:100%;
+    left:0;
     font-family:"kajiro";
     color:white;
     font-weight: 100;
@@ -119,6 +126,9 @@ body{
     letter-spacing: 1px;
     user-select: none;
     
+}
+a:hover{
+    cursor:pointer;
 }
 .hleft button{
     pointer-events:all;
