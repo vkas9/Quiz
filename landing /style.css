@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+}
+
+body{
+    width:100%;
+    height:100%;
+    
+}
+.back{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+}
+.back img{
+    width: 100%;
+    height:100vh;
+    object-fit: cover;
+}
+.top{
+    position:relative;
+    left:0;
+    right:0;
+    width:100%;
+    height:100vh;
+    /* background-color: rgba(0, 0, 0, 0.315); */
+    pointer-events: none;
+
+}
+.nleft img{
+    height:80px;
+}
+.workingarea{
+    width:80%;
+    max-width: 1920px;
+    margin:0 auto;
+    height:100vh;
+    /* border:1px solid yellow; */
+    position:relative;
+}
+.nleft a,.nright a{
+    text-decoration: none;
+    
+    color:white;
+}
+.nleft,.nright{
+    display:flex;
+    align-items: center;
+    padding:10px 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    gap:30px;
+
+}
+.nav{
+    display:flex;
+    justify-content:space-between;
+}
+
+.hero{
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    left:0;
+    top:50%;
+    transform: translate(0%,-50%);
+    width:100%;
+    
+   
+
+
+}
+.hleft{
+    min-width:50%;
+    
+    /* background-color: rgba(255, 255, 0, 0.411); */
+}
+.hright{
+    width:20%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    /* background-color: rgba(0, 0, 255, 0.425); */
+    margin-bottom: 10px;
+
+}
+.hright .imagediv{
+    width:100%;
+    height:150px;
+    background-image: url("port.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+.hright p{
+    text-align: right;
+    font-size: 16px;
+
+}
+
+.hleft .elm{
+    height:9vw;
+    /* background-color: red; */
+    overflow:hidden;
+}
+.hleft .elm h1{
+    font-family:"kajiro";
+    color:white;
+    font-weight: 100;
+    font-size: 10vw;
+    letter-spacing: 1px;
+    user-select: none;
+    
+}
+.hleft button{
+    pointer-events:all;
+    padding:12px 32px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    border:transparent;
+    border-radius: 1px;
+    transition: .2s all;
+    
+}
+.hleft button:hover{
+    cursor:pointer;
+    background-color: rgba(0, 128, 0, 0.87);
+    color:white;
+}
+.hleft button:active{
+    background-color: white;
+    color:black;
+}

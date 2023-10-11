@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"/workspaces/Quiz/test.cpp","tests":[{"id":1696193458097,"input":"6\nabc\nacb\nbac\nbca\ncab\ncba","output":"YES\nYES\nYES\nNO\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/workspaces/Quiz/test.cpp","group":"local","local":true}
